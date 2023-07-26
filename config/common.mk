@@ -194,6 +194,9 @@ PRODUCT_PACKAGES += \
     Recorder \
     ExactCalculator
 
+#BCR
+$(call inherit-product, vendor/bcr/bcr.mk)
+
 include vendor/droidx/config/version.mk
 include vendor/droidx/config/bootanimation.mk
 include vendor/droidx/config/telephony.mk
