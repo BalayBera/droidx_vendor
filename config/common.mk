@@ -9,7 +9,7 @@ DROIDX_ZIP_TYPE := Vanilla
 
 # Gapps
 ifeq ($(DROIDX_GAPPS), true)
-    $(call inherit-product, vendor/gms/products/gms.mk)
+    $(call inherit-product-if-exists, vendor/gms/products/gms.mk)
     DROIDX_ZIP_TYPE := Gapps
 endif
 
@@ -124,10 +124,6 @@ PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
     system/bin/mount.ntfs \
     system/%/libfuse-lite.so \
     system/%/libntfs-3g.so
-
-# GameSpace
-PRODUCT_PACKAGES += \
-    GameSpace
 
 # Openssh
 PRODUCT_PACKAGES += \
