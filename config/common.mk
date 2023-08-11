@@ -187,6 +187,13 @@ PRODUCT_PACKAGES += \
     ThemePicker \
     ThemesStub
 
+# Apps
+PRODUCT_PACKAGES += \
+    Aperture \
+    Etar \
+    Recorder \
+    ExactCalculator
+
 include vendor/droidx/config/version.mk
 include vendor/droidx/config/bootanimation.mk
 include vendor/droidx/config/telephony.mk
