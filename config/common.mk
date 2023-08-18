@@ -196,7 +196,8 @@ PRODUCT_PACKAGES += \
     Aperture \
     Etar \
     Recorder \
-    ExactCalculator
+    ExactCalculator \
+    TouchGestures \
 
 #BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
