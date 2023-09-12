@@ -199,6 +199,10 @@ PRODUCT_PACKAGES += \
     ExactCalculator \
     TouchGestures \
 
+# Repainter integration
+PRODUCT_PACKAGES += \
+    RepainterServicePriv
+
 #BCR
 $(call inherit-product, vendor/bcr/bcr.mk)
 
