@@ -198,6 +198,7 @@ PRODUCT_PACKAGES += \
     Recorder \
     ExactCalculator \
     TouchGestures \
+    DroidXUIWallpaperStub
 
 # Repainter integration
 PRODUCT_PACKAGES += \
